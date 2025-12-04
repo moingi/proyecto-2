@@ -1104,6 +1104,12 @@ body {
                         border-radius: 6px;
                     }
 
+                    .title-filters {
+                        width: 255px;
+                        padding: 20px;
+                        background-color: var(--col-gr-1);
+                    }
+
                     .search-by-name {
                         height: 79px;
 
@@ -1164,12 +1170,6 @@ body {
 
                         border: 1px solid var(--col-gr-1);
 
-                        .title-budget {
-                            width: 255px;
-                            padding: 20px;
-                            background-color: var(--col-gr-1);
-                        }
-
                         span {
                             padding: 10px 0px;
                             font-size: 14px;
@@ -1207,6 +1207,16 @@ body {
 
                     .filter-rating {
                         
+                        width: 295px;
+                        height: 170px;
+                        margin: 1rem 0rem;
+
+                        border-radius: 6px;
+
+                        display: flex;
+                        flex-direction: column;
+
+                        border: 1px solid var(--col-gr-1);
                     }
                 }
             }
